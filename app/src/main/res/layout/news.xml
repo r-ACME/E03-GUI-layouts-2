@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo da Noticia"
+        android:id="@+id/txt_title"
+        android:textSize="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-titulo da Noticia"
+        android:id="@+id/txt_sub_title"
+        android:textSize="30dp"
+        android:layout_below="@+id/txt_title"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Autor"
+        android:textColor="#55000000"
+        android:id="@+id/txt_author"
+        android:textSize="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/txt_title"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noticia de fato
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios
+        \nTextos aleatorios"
+        android:id="@+id/txt_news"
+        android:textSize="15dp"
+        android:layout_below="@+id/txt_sub_title"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publicado em: 19:37 - 12/04/2023"
+        android:id="@+id/txt_date_time"
+        android:textSize="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt_news"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/txt_date_time"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/profile"
+        android:id="@+id/img_profile"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dados do Autor: \nNome: Exemplo da Silva \nTelefone: (31) 99559-6622 \nEmail: exemplo@gmail.com"
+        android:id="@+id/txt_contact"
+        android:textSize="10dp"
+        android:layout_toLeftOf="@id/txt_date_time"
+        android:layout_below="@+id/txt_news"
+        />
+
+</RelativeLayout>

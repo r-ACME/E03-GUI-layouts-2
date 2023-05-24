@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_form_sent">Send comment?</string>
+    <string name="lbl_form_sent_positivo">Comment sent</string>
+    <string name="no">No</string>
+    <string name="lbl_form_sent_negativo">Submission canceled</string>
+    <string name="lbl_form_clear">Clear fields?</string>
+    <string name="lbl_form_clear_positivo">Data purge</string>
+    <string name="yes">Yes</string>
+    <string name="lbl_form_name">Name:</string>
+    <string name="lbl_form_grade">Grade:</string>
+    <string name="lbl_form_email">E-mail:</string>
+    <string name="lbl_form_comment">Comment:</string>
+    <string name="btn_form_sent">Sent</string>
+    <string name="btn_form_clear">Clear</string>
+    <string name="lbl_temperature_10">50ºF</string>
+    <string name="lbl_temperature_15">59ºF</string>
+    <string name="lbl_temperature_25">77ºF</string>
+    <string name="lbl_temperature_30">86ºF</string>
+    <string name="lbl_temperature_20">68ºF</string>
+    <string name="lbl_weather_tittle">Current city weather forecast</string>
+    <string name="lbl_day">Day</string>
+    <string name="lbl_max">Maximun</string>
+    <string name="lbl_min">Minimun</string>
+</resources>

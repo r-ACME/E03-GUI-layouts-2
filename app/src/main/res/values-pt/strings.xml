@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="empty" translatable="false"></string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="lbl_form_sent">Deseja enviar o comentário?</string>
+    <string name="lbl_form_sent_positivo">Comentário enviado com sucesso</string>
+    <string name="lbl_form_sent_negativo">Envio cancelado!</string>
+    <string name="lbl_form_clear">Deseja limpar os campos o comentário?</string>
+    <string name="lbl_form_clear_positivo">Dados descartados</string>
+
+    <string name="lbl_form_name">Nome:</string>
+    <string name="lbl_form_email">E-mail:</string>
+    <string name="lbl_form_comment">Comentário:</string>
+    <string name="lbl_form_grade">Nota:</string>
+
+    <string name="btn_form_clear">Limpar</string>
+    <string name="btn_form_sent">Enviar</string>
+    <string name="lbl_temperature_20">20ºC</string>
+    <string name="lbl_temperature_10">10ºC</string>
+    <string name="lbl_temperature_15">15ºC</string>
+    <string name="lbl_temperature_25">25ºC</string>
+    <string name="lbl_temperature_30">30ºC</string>
+    <string name="lbl_weather_tittle">Previsão de tempo da cidade atual</string>
+    <string name="lbl_max">Máxima</string>
+    <string name="lbl_min">Minima</string>
+    <string name="lbl_day">Dia</string>
+</resources>
